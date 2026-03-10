@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+@theme {
+    --color-blue-primary: #001c39;
+    --color-background: #00162b;
+    --font-work-sans: "Work Sans", sans-serif;
+    --font-titilium: "Titillium Web", sans-serif;
+    --color-fundo-card: #e9e9e9;
+    --color-fundo-amarelo: #FED502;
+    --color-fundo-vermelho: #EC1845;
+    --color-fundo-preto: #212121;
+}
+
+@layer base {
+    body {
+        @apply box-border;
+        @apply m-0;
+        @apply bg-background;
+    }
+}
+
+/*  @layer base {
+    html {
+    
+        @apply font-work-sans   
+    } 
+}
