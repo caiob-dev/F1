@@ -32,21 +32,21 @@ export function Header() {
             aria-label="Ir para página de construtores"
             className="no-underline hover:text-fundo-amarelo"
           >
-            Construtores
+            Constructors
           </Link>
           <Link
             to={"/pilots"}
             aria-label="Ir para página de pilotos"
             className="no-underline hover:text-fundo-amarelo"
           >
-            Pilotos
+            Pilots
           </Link>
           <Link
             to={"/calendar"}
             aria-label="Go to calendar page"
             className="no-underline hover:text-fundo-amarelo"
           >
-            Calendário {year}
+            Calendar {year}
           </Link>
         </ul>
 

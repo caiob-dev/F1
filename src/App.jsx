@@ -6,13 +6,13 @@ import { Main } from "./layout/Main";
 
 function App() {
   return (
-    <>
+    <div className="min-h-dvh flex flex-col">
       <Header />
-      <Main>
+      <Main className="flex-1">
         <Outlet />
       </Main>
       <Footer />
-    </>
+    </div>
   );
 }
 

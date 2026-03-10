@@ -33,7 +33,7 @@ export function AllPilots() {
 
   if (loading) {
     return (
-      <section className="min-h-screen flex flex-col justify-start text-2xl text-white pb-3.5">
+      <section className="min-h-dvh flex flex-col justify-start text-2xl text-white pb-3.5">
         <LoadingSpinner />
       </section>
     );
@@ -41,7 +41,7 @@ export function AllPilots() {
 
   if (error) {
     return (
-      <section className="min-h-screen flex flex-col justify-start text-2xl text-fundo-vermelho">
+      <section className="min-h-dvh flex flex-col justify-start text-2xl text-fundo-vermelho">
         <p>Failed to load Pilots 😥. Try again later!</p>
       </section>
     );

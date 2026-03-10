@@ -46,7 +46,7 @@ export function Standings() {
 
   if (loading) {
     return (
-      <section className="min-h-screen flex flex-col justify-start text-2xl text-white">
+      <section className="min-h-dvh flex flex-col justify-start text-2xl text-white">
        <LoadingSpinner/>
       </section>
     );
@@ -54,7 +54,7 @@ export function Standings() {
 
   if (error) {
     return (
-      <section className="min-h-screen flex flex-col justify-start text-[18px] md:text-2xl text-fundo-vermelho">
+      <section className="min-h-dvh flex flex-col justify-start text-[18px] md:text-2xl text-fundo-vermelho">
         <p>Failed to load standings 😥. Try again later!</p>
       </section>
     );
