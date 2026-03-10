@@ -8,7 +8,7 @@ O projeto consome dados de uma API pública open source, exibindo as informaçõ
 
 Acesse o projeto online:
 
-👉 https://f1-by-caio.vercel.app
+👉 https://f1-by-caio.vercel.app/
 
 📸 Preview
 
