@@ -4,6 +4,7 @@ import { Home } from "../pages/Home";
 import { Calendar } from "../pages/Calendar";
 import { Pilots } from "../pages/Pilots";
 import { Constructors } from "../pages/Constructors";
+import NotFound from "../pages/NotFound";
 
 export function AppRouter() {
   return (
@@ -14,6 +15,7 @@ export function AppRouter() {
           <Route path="calendar" element={<Calendar />} />
           <Route path="teams" element={<Constructors />} />
           <Route path="pilots" element={<Pilots />} />
+          <Route path="*" element={<NotFound />} />
         </Route>
       </Routes>
     </BrowserRouter>
